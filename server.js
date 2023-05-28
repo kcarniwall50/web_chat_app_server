@@ -41,7 +41,7 @@ let users = [];
 const server = app.listen(PORT, () => console.log(`Server started on ${PORT}`));
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://web-chat-app-kp.vercel.app",
     credentials: true,
   },
 });
