@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://web-chat-app-kp.vercel.app/"],
+    origin: ["https://web-chat-app-kp.vercel.app"],
     credentials: true,
   })
 );
