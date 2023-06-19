@@ -30,7 +30,7 @@ mongoose
   .catch((error) => console.log(error.message));
 
 // console.log
-if (process.env.NODE_ENV === "development") {
+if (process.env.NODE_ENV !== "development") {
   console.log = function () {};
 }
 
